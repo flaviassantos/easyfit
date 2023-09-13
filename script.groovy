@@ -1,4 +1,4 @@
-def provisionServer(){
+def provisionServer() {
     dir('terraform') {
         sh "terraform init"
         sh "terraform apply --auto-approve"
