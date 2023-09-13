@@ -17,17 +17,16 @@ pipeline {
                 }
             }
         }
-        stage('increment version') {
+        stage('read version') {
             steps {
                 script {
-                    echo 'incrementing app version...'
+                    gv.readVersion()
                 }
             }
         }
         stage("build image") {
             steps {
                 script {
-                    echo "building image"
                     gv.buildImage()
                 }
             }
