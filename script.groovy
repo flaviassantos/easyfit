@@ -1,8 +1,10 @@
 def readVersion() {
     echo 'reading the application version...'
-    env.TAG = "git describe --tags --abbrev=0 --match *.*.* 2> /dev/null || echo 0.0.0"
-
+    def latestVersion = sh(returnStdout: true, script: 'git describe --tags --abbrev=0 --match *.*.* 2> /dev/null || echo 0.0.0').trim()
+    env.TAG = latestVersion
+    echo "version: ${TAG}"
 }
+
 
 def buildImage() {
     echo "building the docker image..."
