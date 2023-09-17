@@ -6,7 +6,6 @@
 ### Features
 
 * add versioning files ([81575ff](https://github.com/flaviassantos/easyfit/commit/81575ff650fa91dc212be316a60cfcc913338697))
-* added deploy to EC2 stage ([776f002](https://github.com/flaviassantos/easyfit/commit/776f002dd5a21b5bb34c5ae7b9b80d9a8abe2650))
 * added deploy to EC2 stage ([c0971a9](https://github.com/flaviassantos/easyfit/commit/c0971a9afc5724cb0bb8ef83451aefd6fe5ca7dc))
 * added provision stage with Terraform ([b0492c6](https://github.com/flaviassantos/easyfit/commit/b0492c67643fa26e41833794f879c9e66dd41859))
 * build automation and CI with Jenkins ([a1acce4](https://github.com/flaviassantos/easyfit/commit/a1acce4e267312d1ed4997e1f5d59e1e62fbff2a))
@@ -17,11 +16,9 @@
 ### Bug Fixes
 
 * create readVersion function ([55db69c](https://github.com/flaviassantos/easyfit/commit/55db69cc669f618399730d4484da0d4fedfcfca6))
-* fix readVersion function ([eee3898](https://github.com/flaviassantos/easyfit/commit/eee3898ceb2668b8033c4a80ba71f0306a751cf8))
 * fix readVersion function ([85ddc09](https://github.com/flaviassantos/easyfit/commit/85ddc099f6bad22917b39ca35b4718849905aa11))
 * fix readVersion function - fetch tags ([dbce3c1](https://github.com/flaviassantos/easyfit/commit/dbce3c184ed65be67474ed4afe2b4101b6e5b6e0))
 * fix readVersion function and push tags ([f13b477](https://github.com/flaviassantos/easyfit/commit/f13b477131d757bb5bc3564e02358325d57731d9))
-* fixed indentation of provisonServer ([d92d51a](https://github.com/flaviassantos/easyfit/commit/d92d51ad09aa79c79ab381f629a1ec9b6ac8e94a))
 * fixed indentation of provisonServer ([e5efa01](https://github.com/flaviassantos/easyfit/commit/e5efa018d52f4ea2117748c684c64da92e7e5b47))
 * removed script.groovy ([7cf4edc](https://github.com/flaviassantos/easyfit/commit/7cf4edc0665b7cd4b3a7f21011fd6e72ca2c6b85))
 
